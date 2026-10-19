@@ -63,3 +63,16 @@ export function filterPlayers(
     }
     return result;
 }
+
+// ===== MODUL 2 =====
+// Mencari 1 pemain berdasarkan id (id dari URL selalu berbentuk string)
+export function findPlayerById(
+    list: Player[],
+    id: string | undefined,
+): Player | undefined {
+    if (id === undefined) return undefined;
+    for (const p of list) {
+        if (String(p.id) === id) return p;
+    }
+    return undefined;
+}

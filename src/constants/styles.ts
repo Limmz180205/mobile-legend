@@ -176,4 +176,133 @@ export const styles = StyleSheet.create({
         textAlign: "center",
         marginTop: 30,
     },
+    // ===== MODUL 2 =====
+    headerRow: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+    },
+    favLink: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#151c34",
+        borderRadius: 16,
+        paddingHorizontal: 12,
+        paddingVertical: 6,
+        borderWidth: 1,
+        borderColor: "#243055",
+    },
+    favLinkText: {
+        color: "#facc15",
+        fontSize: 12,
+        fontWeight: "bold",
+        marginLeft: 6,
+    },
+    heartButton: {
+        padding: 6,
+        marginRight: 6,
+    },
+    loadingBox: {
+        marginTop: 40,
+        alignItems: "center",
+    },
+    detailContainer: {
+        flex: 1,
+        backgroundColor: "#0b1020",
+        padding: 16,
+    },
+    detailHeader: {
+        alignItems: "center",
+        marginBottom: 16,
+    },
+    detailAvatar: {
+        width: 96,
+        height: 96,
+        borderRadius: 48,
+        backgroundColor: "#243055",
+        marginBottom: 10,
+    },
+    detailName: {
+        fontSize: 24,
+        fontWeight: "bold",
+        color: "#ffffff",
+    },
+    tabRow: {
+        flexDirection: "row",
+        marginBottom: 12,
+    },
+    tabButton: {
+        flex: 1,
+        paddingVertical: 10,
+        alignItems: "center",
+        borderBottomWidth: 2,
+        borderBottomColor: "#243055",
+    },
+    tabButtonActive: {
+        borderBottomColor: "#facc15",
+    },
+    tabText: {
+        color: "#94a3b8",
+        fontWeight: "600",
+    },
+    tabTextActive: {
+        color: "#facc15",
+    },
+    infoRow: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        paddingVertical: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: "#1c2545",
+    },
+    infoLabel: {
+        color: "#94a3b8",
+        fontSize: 14,
+    },
+    infoValue: {
+        color: "#ffffff",
+        fontSize: 14,
+        fontWeight: "bold",
+    },
+    progressTrack: {
+        height: 10,
+        borderRadius: 5,
+        backgroundColor: "#243055",
+        marginTop: 6,
+        marginBottom: 12,
+        overflow: "hidden",
+    },
+    actionRow: {
+        flexDirection: "row",
+        marginTop: 20,
+    },
+    primaryButton: {
+        flex: 1,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#facc15",
+        borderRadius: 10,
+        paddingVertical: 12,
+        marginRight: 8,
+    },
+    primaryButtonText: {
+        color: "#0b1020",
+        fontWeight: "bold",
+        marginLeft: 6,
+    },
+    secondaryButton: {
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#151c34",
+        borderRadius: 10,
+        paddingVertical: 12,
+        borderWidth: 1,
+        borderColor: "#243055",
+    },
+    secondaryButtonText: {
+        color: "#cbd5e1",
+        fontWeight: "bold",
+    },
 });

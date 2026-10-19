@@ -34,3 +34,15 @@ export interface SummaryItem {
   value: string;
   icon: "people" | "game-controller" | "skull" | "trophy";
 }
+
+// ===== MODUL 2 =====
+
+// Tab di halaman detail pemain (dikirim lewat parameter route ?tab=...)
+export type DetailTab = "stats" | "profile";
+
+// Bentuk data yang dibagikan lewat Context (Modul 2 - useContext)
+export interface FavoritesContextType {
+  favorites: (string | number)[];
+  toggleFavorite: (id: string | number) => void;
+  isFavorite: (id: string | number) => boolean;
+}
