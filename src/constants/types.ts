@@ -25,6 +25,7 @@ export interface Player {
   deaths: number;
   assists: number;
   badge?: string; // opsional (tanda "?")
+  avatar?: string; // opsional: avatar dari API
 }
 
 // Interface untuk kotak ringkasan di bagian atas

@@ -30,7 +30,7 @@ export default function PlayerCard({
         <Pressable style={styles.card} onPress={onPress} onLongPress={onLongPress}>
             <View style={styles.cardTop}>
                 <Image
-                    source={{ uri: `https://picsum.photos/seed/${player.name}/100` }}
+                    source={{ uri: player.avatar || `https://picsum.photos/seed/${player.name}/100` }}
                     style={styles.avatar}
                 />
                 <View style={{ flex: 1 }}>
@@ -45,7 +45,7 @@ export default function PlayerCard({
                     <Ionicons
                         name={isFavorite ? "heart" : "heart-outline"}
                         size={22}
-                        color={isFavorite ? "#ef4444" : "#94a3b8"}
+                        color={isFavorite ? "#0b0101" : "#94a3b8"}
                     />
                 </Pressable>
 
