@@ -201,10 +201,18 @@ export default function Index() {
               <Ionicons name="heart" size={16} color="#f31515" />
               <Text style={styles.favLinkText}>{favorites.length}</Text>
             </Pressable>
+
+            {/* Navigasi ke halaman Profil Pengguna (Modul 4: Supabase Auth & Logout) */}
+            <Pressable
+              style={[styles.favLink, { backgroundColor: "#1e293b" }]}
+              onPress={() => router.push("/profile")}
+            >
+              <Ionicons name="person" size={16} color="#facc15" />
+            </Pressable>
           </View>
         </View>
         <Text style={styles.subtitle}>
-          Aplikasi statistik pemain Mobile Legends (Modul 3: Async & API)
+          Aplikasi statistik pemain Mobile Legends (Modul 4: Supabase Auth & Storage)
         </Text>
       </View>
 
