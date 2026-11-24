@@ -196,7 +196,7 @@ export default function Index() {
             {/* Navigasi ke halaman Favorit */}
             <Pressable
               style={styles.favLink}
-              onPress={() => router.push("/favorites")}
+              onPress={() => router.push("/notes")}
             >
               <Ionicons name="heart" size={16} color="#f31515" />
               <Text style={styles.favLinkText}>{favorites.length}</Text>

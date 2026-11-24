@@ -71,6 +71,7 @@ function RootLayoutNav() {
       <Stack.Screen name="player/[id]" options={{ title: "Detail Pemain" }} />
       <Stack.Screen name="favorites" options={{ title: "Pemain Favorit" }} />
       <Stack.Screen name="profile" options={{ title: "Profil Saya" }} />
+      <Stack.Screen name="notes" options={{ title: "Catatan MLBB" }} />
     </Stack>
   );
 }
